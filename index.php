@@ -4,7 +4,7 @@
     
     try
     {
-        $bdd = new PDO('mysql:host=localhost;dbname=dbboutique;charset=utf8', 'benji', 'campusnum');
+        $bdd = new PDO('mysql:host=localhost;dbname=dbBoutique;charset=utf8', 'benji', 'campusnum');
     }
     catch (Exception $e)
     {

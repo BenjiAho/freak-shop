@@ -2,7 +2,7 @@
 
 // POUR QUE LA BASE DE DONNEE PRENNE BIEN LES PARAMETRES APRES SUBMIT DU FORMULAIRE D'AJOUTE
 // DECLARER LA VARIBLE $BDD  POUR SE CONNECTER A MYSQL GRACE A NEW PDO
-$BDD = new PDO('mysql:host=localhost:3306; dbname=dbboutique', "benji", "campusnum");
+$BDD = new PDO('mysql:host=localhost:3306; dbname=dbBoutique', "benji", "campusnum");
 
 //si $_POST les valeurs
 if (isset($_POST['name']) && isset($_POST['photo']) && isset($_POST['prix']) && isset($_POST['code']) && isset($_POST['description'])) {

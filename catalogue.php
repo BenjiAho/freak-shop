@@ -4,7 +4,7 @@
 // DECLARER LA VARIBLE $BDD  POUR SE CONNECTER A MYSQL GRACE A NEW PDO
 try
     {
-        $bdd = new PDO('mysql:host=localhost;dbname=dbboutique;charset=utf8', 'benji', 'campusnum');
+        $bdd = new PDO('mysql:host=localhost;dbname=dbBoutique;charset=utf8', 'benji', 'campusnum');
     }
     catch (Exception $e)
     {
@@ -77,7 +77,7 @@ if (!empty($_GET["action"])) {
 	}
 }
 
-$BDD = new PDO('mysql:host=localhost:3306; dbname=dbboutique', "benji", "campusnum");
+$BDD = new PDO('mysql:host=localhost:3306; dbname=dbBoutique', "benji", "campusnum");
 //si $_POST les valeurs
 if (isset($_POST['name']) && isset($_POST['photo']) && isset($_POST['prix']) && isset($_POST['code']) && isset($_POST['description'])) {
 	

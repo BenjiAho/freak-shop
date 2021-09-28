@@ -2,7 +2,7 @@
 	class Database{
 		// Propriétés de la base de données
 		private $host = "localhost";
-		private $db_name = "dbboutique";
+		private $db_name = "dbBoutique";
 		private $username = "benji";
 		private $password = "campusnum";
 		public $connexion;
@@ -26,7 +26,7 @@
 	}
 	// try
     // {
-    //     $bdd = new PDO('mysql:host=localhost;dbname=dbboutique;charset=utf8', 'benji', 'campusnum');
+    //     $bdd = new PDO('mysql:host=localhost;dbname=dbBoutique;charset=utf8', 'benji', 'campusnum');
     // }
     // catch (Exception $e)
     // {

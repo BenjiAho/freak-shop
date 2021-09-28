@@ -5,7 +5,7 @@
 function afficheCatalogue() {
     try
     {
-        $bdd = new PDO('mysql:host=localhost;dbname=dbboutique;charset=utf8', 'benji', 'campusnum');
+        $bdd = new PDO('mysql:host=localhost;dbname=dbBoutique;charset=utf8', 'benji', 'campusnum');
     }
     catch (Exception $e)
     {
@@ -62,7 +62,7 @@ function afficheCatalogue() {
 function afficheCatalogue2() {
     try
     {
-        $bdd = new PDO('mysql:host=localhost;dbname=dbboutique;charset=utf8', 'benji', 'campusnum');
+        $bdd = new PDO('mysql:host=localhost;dbname=dbBoutique;charset=utf8', 'benji', 'campusnum');
     }
     catch (Exception $e)
     {
@@ -106,7 +106,7 @@ function afficheCatalogue2() {
 function afficheUnArticle ($code){
     try
     {
-        $bdd = new PDO('mysql:host=localhost;dbname=dbboutique;charset=utf8', 'benji', 'campusnum');
+        $bdd = new PDO('mysql:host=localhost;dbname=dbBoutique;charset=utf8', 'benji', 'campusnum');
     }
     catch (Exception $e)
     {
